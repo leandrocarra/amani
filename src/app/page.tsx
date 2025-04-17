@@ -11,7 +11,7 @@ export default function Home() {
       <div className="text-center p-8 backdrop-blur-md bg-white/10 rounded-2xl shadow-2xl border border-white/20 transition-all duration-500 hover:scale-105 hover:shadow-3xl">
         <h1 className={`${montserrat.className} text-6xl font-black text-white mb-4 tracking-tight`}>
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-yellow-100 to-amber-300">
-            Hello World
+            AMANI SOLUÇÕES
           </span>
         </h1>
         <p className="text-white/80 text-xl mb-6">

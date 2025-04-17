@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AMANI SOLUÇÕES
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15.3.0-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.x-38bdf8)
 
-First, run the development server:
+Um projeto moderno desenvolvido com Next.js, TypeScript e Tailwind CSS.
+
+## 📋 Sobre
+
+AMANI SOLUÇÕES é uma aplicação web moderna construída utilizando tecnologias de ponta para garantir performance, escalabilidade e uma excelente experiência de usuário.
+
+## 🚀 Tecnologias
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Next.js 15](https://nextjs.org/) - Framework React com renderização híbrida
+- [TypeScript](https://www.typescriptlang.org/) - Superset tipado de JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para design rápido
+- [ESLint](https://eslint.org/) - Linter para código JavaScript/TypeScript
+
+## 🛠️ Instalação
 
 ```bash
+# Clone este repositório
+git clone https://seu-repositorio/amani.git
+
+# Acesse a pasta do projeto
+cd amani
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📚 Comandos Disponíveis
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Inicia o ambiente de desenvolvimento
+- `npm run build` - Gera a versão de produção
+- `npm run start` - Inicia o servidor em modo de produção
+- `npm run lint` - Executa a verificação de linting
 
-## Learn More
+## 📁 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+```
+amani/
+├── public/            # Arquivos estáticos
+├── src/               # Código-fonte
+│   ├── app/           # Rotas e páginas da aplicação
+│   │   ├── layout.tsx # Layout principal
+│   │   └── page.tsx   # Página inicial
+├── .gitignore         # Arquivos ignorados pelo git
+├── next.config.ts     # Configuração do Next.js
+├── package.json       # Dependências e scripts
+└── README.md          # Este arquivo
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Design responsivo e moderno
+- Interface de usuário intuitiva
+- Estrutura de projeto organizada e escalável
+- Otimizado para SEO e performance
 
-## Deploy on Vercel
+## 🤝 Contribuição
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+4. Faça push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📧 Contato
+
+AMANI SOLUÇÕES - [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+
+---
+
+Desenvolvido com ❤️

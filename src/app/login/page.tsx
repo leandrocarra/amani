@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { FacebookIcon } from '@/components/icons/FacebookIcon';
 import { GoogleIcon } from '@/components/icons/GoogleIcon';

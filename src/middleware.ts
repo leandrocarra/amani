@@ -4,19 +4,18 @@ import type { NextRequest } from 'next/server';
 const publicRoutes = ['/login', '/', '/about', '/contact'];
 
 export function middleware(request: NextRequest) {
-  const isPublicRoute = publicRoutes.some(route => request.nextUrl.pathname.startsWith(route));
-  
-  // Se não for uma rota pública e não estiver autenticado, redireciona para o login
+  const { pathname } = request.nextUrl;
+
+  const isPublicRoute = publicRoutes.includes(pathname);
+
   if (!isPublicRoute) {
-    // Aqui você pode adicionar a verificação de autenticação
-    // Por exemplo:
-    // const token = request.cookies.get('token');
-    // if (!token) return NextResponse.redirect(new URL('/login', request.url));
+    // Aqui você deveria verificar autenticação
+    // Se não for usar agora, tudo passa
   }
-  
+
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: '/((?!api|_next/static|_next/image|favicon.ico).*)',
-}; 
+  matcher: ['/((?!api|_next|favicon.ico).*)'],
+};
